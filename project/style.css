@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #14181c;
+    color: #d8e0e8;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+
+
+/* ===== Container ===== */
+.container {
+    width: 85%;
+    margin: 40px auto;
+    background: #1c232b;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+/* ===== Headings ===== */
+h1, h2, h3 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* ===== Accent Line ===== */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(to right, #00c030, #ff8000);
+    margin-bottom: 30px;
+}
+
+/* ===== Tables ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+}
+
+table th {
+    background-color: #00c030;
+    color: black;
+    padding: 12px;
+    text-align: left;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #2f3842;
+    font-weight: 400;
+}
+
+table tr:hover {
+    background-color: #222b35;
+}
+
+/* ===== Forms ===== */
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #2a333d;
+    border: 1px solid #3b4652;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ===== Buttons ===== */
+input[type="submit"] {
+    background-color: #ff8000;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffaa33;
+}
+
+/* ===== Links ===== */
+a {
+    color: #00c030;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #ff8000;
+}
+
+/* ===== Navigation ===== */
+.nav-table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+marquee {
+    white-space: nowrap;
+}
